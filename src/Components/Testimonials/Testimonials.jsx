@@ -190,7 +190,7 @@ function Testimonials() {
             </p>
 
             <button type="submit" className="submit-btn">
-              Отправить
+              Отправитьsa
             </button>
           </form>
         </div>
