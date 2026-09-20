@@ -1,0 +1,220 @@
+.banner {
+  width: 100%;
+  background-color: #f8fafc;
+  padding: 40px 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.banner__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* --- YUQORI HERO BANNER --- */
+.banner__hero {
+  background-color: #f6be75;
+  border-radius: 20px;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 15px rgba(246, 190, 117, 0.2);
+}
+
+.banner__hero-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  margin-right: 30px;
+}
+
+.banner__hero-day {
+  font-size: 56px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.banner__hero-month {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 4px;
+}
+
+.banner__hero-content {
+  flex: 1;
+}
+
+.banner__hero-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.banner__hero-text {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.4;
+}
+
+.banner__hero-btn {
+  background: transparent;
+  border: 1.5px solid #111827;
+  border-radius: 10px;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.banner__hero-btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* --- GRID VA KARTALAR --- */
+.banner__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 20px;
+}
+
+.banner__card {
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.banner__card:hover {
+  transform: translateY(-2px);
+}
+
+/* Chap tarafdagi katta ko'k karta */
+.banner__card--large-blue {
+  background-color: #c8e0ff;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.banner__card--large-blue .banner__card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.banner__card--large-blue .banner__card-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.banner__card--large-blue .banner__card-text {
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.banner__card-btn {
+  background: transparent;
+  border: 1.5px solid #111827;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* O'ng guruh */
+.banner__right-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner__top-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Yashil karta */
+.banner__card--green {
+  background-color: #bbf2d0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.banner__card--green .banner__card-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+/* Pushti karta */
+.banner__card--pink {
+  background-color: #fde8f3;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.banner__card--pink .banner__card-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+/* Sariq karta */
+.banner__card--yellow {
+  background-color: #ffe494;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+}
+
+.banner__card--yellow .banner__card-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.banner__card--yellow .banner__card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.banner__card--yellow .banner__card-text {
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.banner__arrow {
+  font-size: 16px;
+  font-weight: 700;
+}
