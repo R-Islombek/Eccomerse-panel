@@ -11,7 +11,6 @@ const Banner = () => {
     <section className="banner">
       <div className="banner__container">
 
-        {/* Yuqori to'q sariq blok */}
         <div className="banner__hero">
           <div className="banner__hero-date">
             <span className="banner__hero-day">25</span>
@@ -35,10 +34,8 @@ const Banner = () => {
           </button>
         </div>
 
-        {/* Pastki grid kartalar */}
         <div className="banner__grid">
 
-          {/* Chap tarafdagi katta ko'k karta */}
           <div className="banner__card banner__card--large-blue">
             <div className="banner__card-icon-wrapper">
               <img
@@ -63,10 +60,8 @@ const Banner = () => {
             </button>
           </div>
 
-          {/* O'ng tarafdagi kartalar */}
           <div className="banner__right-group">
 
-            {/* Tepada 2 ta kichik karta */}
             <div className="banner__top-cards">
 
               <div className="banner__card banner__card--green">
@@ -95,7 +90,6 @@ const Banner = () => {
 
             </div>
 
-            {/* Pastdagi sariq karta */}
             <div className="banner__card banner__card--yellow">
 
               <div className="banner__card-icon-wrapper">

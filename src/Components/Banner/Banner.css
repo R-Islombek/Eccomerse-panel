@@ -14,7 +14,6 @@
   gap: 20px;
 }
 
-/* --- YUQORI HERO BANNER --- */
 .banner__hero {
   background-color: #f6be75;
   border-radius: 20px;
@@ -83,7 +82,6 @@
   background: rgba(0, 0, 0, 0.05);
 }
 
-/* --- GRID VA KARTALAR --- */
 .banner__grid {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
@@ -102,7 +100,6 @@
   transform: translateY(-2px);
 }
 
-/* Chap tarafdagi katta ko'k karta */
 .banner__card--large-blue {
   background-color: #c8e0ff;
   align-items: center;
@@ -144,7 +141,6 @@
   gap: 6px;
 }
 
-/* O'ng guruh */
 .banner__right-group {
   display: flex;
   flex-direction: column;
@@ -157,7 +153,6 @@
   gap: 20px;
 }
 
-/* Yashil karta */
 .banner__card--green {
   background-color: #bbf2d0;
   align-items: center;
@@ -172,7 +167,6 @@
   margin-bottom: 15px;
 }
 
-/* Pushti karta */
 .banner__card--pink {
   background-color: #fde8f3;
   align-items: center;
@@ -187,7 +181,6 @@
   margin-bottom: 15px;
 }
 
-/* Sariq karta */
 .banner__card--yellow {
   background-color: #ffe494;
   flex-direction: row;
