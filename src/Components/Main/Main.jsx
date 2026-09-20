@@ -4,11 +4,9 @@ import './Main.css';
 const Main = () => {
   return (
     <main className="main">
-      {/* Yuqori qism: Filtrlar va Maslahatchi */}
       <section className="main__filter-section">
         <div className="main__container">
-          
-          {/* Chap tarafdagi xabar va personaj */}
+
           <div className="main__hero-speech">
             <div className="main__speech-bubble">
               <h3 className="main__speech-title">Кем вы хотите стать?</h3>
@@ -22,10 +20,8 @@ const Main = () => {
             </div>
           </div>
 
-          {/* O'ng tarafdagi kategoriyalar va teglar */}
           <div className="main__categories">
             
-            {/* Yoshi bo'yicha tablar */}
             <div className="main__tabs">
               <button className="main__tab main__tab--active">
                 <span className="main__tab-icon">👶</span>
@@ -52,7 +48,6 @@ const Main = () => {
               </button>
             </div>
 
-            {/* Yo'nalishlar bo'yicha teglar */}
             <div className="main__tags">
               <button className="main__tag">Робототехника</button>
               <button className="main__tag">Создание игр</button>
@@ -69,7 +64,6 @@ const Main = () => {
         </div>
       </section>
 
-      {/* Video player qismi */}
       <section className="main__video-section">
         <div className="main__video-wrapper">
           
@@ -79,7 +73,6 @@ const Main = () => {
         </div>
       </section>
 
-      {/* Statistika qismi */}
       <section className="main__stats-section">
         <div className="main__container">
           <h2 className="main__stats-title">
