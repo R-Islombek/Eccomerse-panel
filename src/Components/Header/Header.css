@@ -1,11 +1,9 @@
-/* Variable Declarations */
 :root {
   --color-primary: #00093c;
   --color-text: #1a1a1a;
   --color-bg: #ffffff;
 }
 
-/* Header Block */
 .header {
   width: 100%;
   background-color: var(--color-bg);
@@ -21,7 +19,6 @@
   justify-content: space-between;
 }
 
-/* Logo Block */
 .logo {
   display: flex;
   align-items: center;
@@ -39,6 +36,10 @@
 
 .logo__shape {
   background-color: var(--color-primary);
+}
+.logo__shape__logos{
+    width: 50px;
+    height: 40px;
 }
 
 .logo__shape--triangle {
@@ -71,7 +72,6 @@
   letter-spacing: 0.5px;
 }
 
-/* Navigation Block */
 .nav__list {
   display: flex;
   list-style: none;
@@ -100,7 +100,6 @@
   font-size: 16px;
 }
 
-/* Actions Block */
 .header__actions {
   display: flex;
   align-items: center;
@@ -144,7 +143,6 @@
   font-weight: 500;
 }
 
-/* Burger Button Block */
 .burger {
   display: none;
   flex-direction: column;
@@ -165,7 +163,6 @@
   transition: all 0.3s ease;
 }
 
-/* Burger Active Animations */
 .burger--active .burger__line:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -178,7 +175,6 @@
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Mobile Responsive Adaptivity */
 @media (max-width: 992px) {
   .burger {
     display: flex;

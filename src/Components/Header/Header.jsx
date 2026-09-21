@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import logo from '../Images/logo.png'
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,12 +17,9 @@ export const Header = () => {
     <header className="header">
       <div className="header__container">
         
-        {/* Logo */}
         <a href="#" className="header__logo logo">
           <div className="logo__icon">
-            <span className="logo__shape logo__shape--cross"></span>
-            <span className="logo__shape logo__shape--triangle"></span>
-            <span className="logo__shape logo__shape--circle"></span>
+            <img className='logo__shape__logos' src={logo} alt="rasm" />
           </div>
           <div className="logo__text">
             <span className="logo__title">FUTURE</span>
@@ -29,7 +27,6 @@ export const Header = () => {
           </div>
         </a>
 
-        {/* Navigation Menu */}
         <nav className={`header__nav nav ${isMenuOpen ? 'nav--open' : ''}`}>
           <ul className="nav__list">
             <li className="nav__item">
@@ -50,9 +47,7 @@ export const Header = () => {
           </ul>
         </nav>
 
-        {/* User Actions */}
         <div className="header__actions">
-          {/* Location Dropdown */}
           <div className="header__location location">
             <span className="location__icon">📍</span>
             <button type="button" className="location__button">
@@ -61,18 +56,15 @@ export const Header = () => {
             </button>
           </div>
 
-          {/* Phone */}
           <a href="tel:88009503398" className="header__phone">
             8 800 950-33-98
           </a>
 
-          {/* User Auth */}
           <a href="#" className="header__user">
             <span className="header__user-icon">👤</span>
             <span>Войти</span>
           </a>
 
-          {/* Mobile Burger Button */}
           <button
             type="button"
             className={`header__burger burger ${isMenuOpen ? 'burger--active' : ''}`}
