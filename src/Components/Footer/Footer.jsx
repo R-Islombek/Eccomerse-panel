@@ -1,9 +1,10 @@
 import React from 'react'
-import logo from '../Images/logo.png'
+import logo from '../Images/logo2.png'
 import { FaTelegram } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
+import './Footer.css'
 
 const Footer = () => {
   return (

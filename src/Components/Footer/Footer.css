@@ -1,0 +1,139 @@
+/* Umumiy sozlamalar */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif, system-ui;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer Asosiy Stili */
+.footer {
+  background-color: #000333; /* Rasmdagi to'q ko meva/siyohrang uslubidagi background */
+  color: #ffffff;
+  padding: 60px 0 40px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 160px;
+}
+
+/* Birinchi ustun - Logo va Kontaktlar */
+.footer__item--info {
+  max-width: 250px;
+  gap: 16px;
+}
+
+.footer__img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer__phone {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer__phone:hover {
+  opacity: 0.8;
+}
+
+.footer__text {
+  color: #b0b4cf;
+  font-size: 14px;
+}
+
+.footer__email {
+  color: #b0b4cf;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer__email:hover {
+  color: #ffffff;
+}
+
+/* Ijtimoiy tarmoqlar belgilari */
+.footer__socials {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer__socials a {
+  color: #ffffff;
+  font-size: 20px;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.footer__socials a:hover {
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
+
+.footer__copyright {
+  color: #72799e;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Sarlavhalar (Детям, Подросткам...) */
+.footer__title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* Havolalar (Linklar) */
+.footer__link {
+  color: #b0b4cf; /* Och kulrang-binafsharang matn */
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: color 0.2s;
+}
+
+.footer__link:hover {
+  color: #ffffff; /* Sitcha olib borilganda oq bo'ladi */
+}
+
+/* Adaptiv responsive dizayn (Mobil va Planshetlar uchun) */
+@media (max-width: 992px) {
+  .footer__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
