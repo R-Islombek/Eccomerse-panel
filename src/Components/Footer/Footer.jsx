@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from '../Images/logo.png'
 import { FaTelegram } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -11,10 +14,14 @@ const Footer = () => {
                 <ul className='footer__list'>
                   <li className='footer__item'>
                     <img className='footer__img' src={logo} alt="" />
-                    <a className='footer__link' href="#"></a>
-                    <a className='footer__link' href="#"></a>
-                    <a className='footer__link' href="#"></a>
+                    <a className='footer__link' href="#">8 800 950-33-98 </a>
+                    <a className='footer__link' href="#">г. Москва, ул. Ленина, д. 50</a>
+                    <a className='footer__link' href="#">info@hodfutureacademy.ru</a>
                     <FaTelegram/>
+                    <FaInstagram/>
+                    <FaFacebook/>
+                    <FaYoutube/>
+                    <a className='footer__link' href="#">© ХОД, Future Academy</a>
                   </li>
                   <li className='footer__item'></li>
                   <li className='footer__item'></li>
