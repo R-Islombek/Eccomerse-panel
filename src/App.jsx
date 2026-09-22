@@ -3,6 +3,7 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 import Header from './Components/Header/Header'
 import Main  from './Components/Main/Main'
 import Banner from './Components/Banner/Banner';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Main/>
         <Banner/>
         <Testimonials />
+        <Footer/>
     </>
   )
 }
