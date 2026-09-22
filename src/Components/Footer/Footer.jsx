@@ -23,7 +23,20 @@ const Footer = () => {
                     <FaYoutube/>
                     <a className='footer__link' href="#">© ХОД, Future Academy</a>
                   </li>
-                  <li className='footer__item'></li>
+                  <li className='footer__item'>
+                    <a className='footer__link' href="#">Детям</a>
+                    <a className='footer__link' href="#">Робототехника</a>
+                    <a className='footer__link' href="#">Создание игр</a>
+                    <a className='footer__link' href="#">Программирование</a>
+                    <a className='footer__link' href="#">Мультимедиа</a>
+                    <a className='footer__link' href="#">Soft skills</a>
+                    <a className='footer__link' href="#">Шахматы</a>
+                    <a className='footer__link' href="#">Блогинг</a>
+                    <a className='footer__link' href="#">Создание игр</a>
+                    <a className='footer__link' href="#">Программирование</a>
+                    <a className='footer__link' href="#">Мультимедиа</a>
+                    <a className='footer__link' href="#">Soft skills</a>
+                  </li>
                   <li className='footer__item'></li>
                   <li className='footer__item'></li>
                   <li className='footer__item'></li>
