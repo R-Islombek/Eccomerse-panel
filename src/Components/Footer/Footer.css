@@ -1,4 +1,3 @@
-/* Umumiy sozlamalar */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,9 +14,8 @@ body {
   padding: 0 20px;
 }
 
-/* Footer Asosiy Stili */
 .footer {
-  background-color: #000333; /* Rasmdagi to'q ko meva/siyohrang uslubidagi background */
+  background-color: #000333;
   color: #ffffff;
   padding: 60px 0 40px;
 }
@@ -38,7 +36,6 @@ body {
   min-width: 160px;
 }
 
-/* Birinchi ustun - Logo va Kontaktlar */
 .footer__item--info {
   max-width: 250px;
   gap: 16px;
@@ -78,7 +75,6 @@ body {
   color: #ffffff;
 }
 
-/* Ijtimoiy tarmoqlar belgilari */
 .footer__socials {
   display: flex;
   gap: 16px;
@@ -103,7 +99,6 @@ body {
   margin-top: 10px;
 }
 
-/* Sarlavhalar (Детям, Подросткам...) */
 .footer__title {
   color: #ffffff;
   font-size: 18px;
@@ -111,9 +106,8 @@ body {
   margin-bottom: 8px;
 }
 
-/* Havolalar (Linklar) */
 .footer__link {
-  color: #b0b4cf; /* Och kulrang-binafsharang matn */
+  color: #b0b4cf;
   font-size: 14px;
   text-decoration: none;
   line-height: 1.4;
@@ -121,10 +115,9 @@ body {
 }
 
 .footer__link:hover {
-  color: #ffffff; /* Sitcha olib borilganda oq bo'ladi */
+  color: #ffffff;
 }
 
-/* Adaptiv responsive dizayn (Mobil va Planshetlar uchun) */
 @media (max-width: 992px) {
   .footer__list {
     display: grid;
